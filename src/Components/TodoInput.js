@@ -4,6 +4,7 @@ function TodoInput(props) {
     let [inputText, setInputText] = useState('');
     return (
         <div className="input-container">
+            
             <input
                 type="text"
                 placeholder="Enter your task"
